@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container border text-center">
         <h4>Today birthdays</h4>
-        <List people={people}/>
+        <List people={people} setPeople={setPeople}/>
     </div>
   );
 }
